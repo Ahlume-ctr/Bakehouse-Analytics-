@@ -90,7 +90,7 @@ https://github.com/Ahlume-ctr/Bakehouse-Analytics-/blob/main/Screenshot%202026-0
 
 🔗 LIVE DASHBOARD
 
-👉 "View Interactive Dashboard" (YOUR_LOVABLE_LINK_HERE)
+👉 https://bakehousesalesanalytics.lovable.app/
 
 ---
 
