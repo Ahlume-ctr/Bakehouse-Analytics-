@@ -84,11 +84,7 @@ The dataset consists of Bakehouse sales transactions, including:
 
 Sales Overview
 
-"Sales Overview" (images/sales_overview.png)
-
-Revenue by Franchise
-
-"Revenue by Franchise" (images/revenue.png)
+https://github.com/Ahlume-ctr/Bakehouse-Analytics-/blob/main/Screenshot%202026-05-01%20135954.png?raw=true
 
 ---
 
