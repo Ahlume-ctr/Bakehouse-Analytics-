@@ -1,110 +1,149 @@
 # Bakehouse-Analytics-
 
 
-📊 PROJECT OVERVIEW
-
-This project focuses on analyzing Bakehouse sales transaction data to uncover key business insights, including revenue performance, product trends, and franchise level performance.
-
-The goal is to transform raw sales data into meaningful insights that can support data-driven decision making and business growth.
 
 
+📊 Turning Transaction Data into Business Insights
 
-🎯 OBJECTIVES
+---
 
-- Analyze overall sales performance
-- Identify top and bottom performing franchises
-- Evaluate transaction volume and revenue trends
-- Provide actionable business insights
+🚀 PROJECT SUMMERY
 
+This project analyzes Bakehouse sales data to uncover key revenue drivers, identify high-performing franchises, and highlight opportunities for business growth.
 
+Using SQL in Databricks and dashboarding in Lovable, the project transforms raw transactional data into actionable insights that support data-driven decision-making.
 
-TOOLS I ENGAGED WITH
+---
 
-- Databricks – Data querying and analysis
-- SQL – Data extraction, transformation, and aggregation
-- Lovable – Dashboard and data visualization
-- GitHub – Project documentation and version control
+🎯 BUSINESS PROBLEM
 
+Bakehouse management needs visibility into:
 
-DATASET
+- Which franchises are driving the most revenue
+- Where performance is declining
+- How transaction activity varies across locations
 
-The dataset used in this project is a Bakehouse sales transactions dataset sourced from Databricks sample data.
+---
 
+🧠 SOLUTION APPROACHED
 
+- Cleaned and structured transactional data
+- Aggregated sales and transaction metrics using SQL
+- Built an interactive dashboard to visualize performance
+- Translated findings into business recommendations
 
-KEY ANALYSIS PERFORMED
+---
 
-1. Franchise Performance
+🛠️ TECH STACK
 
-- Calculated total revenue per franchise
-- Counted number of transactions
-- Identified top and bottom performers
+- Databricks – Data querying and transformation
+- SQL – Aggregations, filtering, and analysis
+- Lovable – Interactive dashboard development
+- GitHub – Project documentation
 
-2. Revenue Insights
+---
 
-- Aggregated total sales revenue
-- Compared revenue contribution across franchises
+📂 DATASET OVERVIEW
 
-3. Transaction Analysis
+The dataset consists of Bakehouse sales transactions, including:
+
+- "franchiseID" – Store identifier
+- "totalPrice" – Revenue per transaction
+- Transaction-level records
+
+---
+
+🔍 KEY ANALYSIS
+
+📈 Revenue Performance
+
+- Calculated total revenue by franchise
+- Compared contribution across locations
+
+🏪 Franchise Performance
+
+- Identified top and bottom-performing franchises
+- Highlighted revenue concentration patterns
+
+🔄 Transaction Analysis
 
 - Measured transaction volume
-- Evaluated sales activity patterns
+- Analyzed operational activity across franchises
 
-
+---
 
 💡 KEY INSIGHTS
 
-- Certain franchises consistently generate higher revenue, indicating strong performance
-- Transaction volume varies significantly across franchises
-- Opportunities exist to improve underperforming locations
+- A small number of franchises contribute a significant portion of total revenue
+- Performance varies widely across locations, indicating operational inconsistencies
+- Some franchises show low transaction activity, suggesting potential inefficiencies or low demand
 
+---
 
+📊 DASHBOARD PREVIEW
 
-DASHBOARD PREVIEW
+Sales Overview
 
-(Add screenshots here)
+"Sales Overview" (images/sales_overview.png)
 
-Example:
+Revenue by Franchise
 
-- Sales overview dashboard
-- Revenue by franchise
-- Transaction trends
+"Revenue by Franchise" (images/revenue.png)
 
+---
 
+🔗 LIVE DASHBOARD
 
-🔗 LIVE PROJECT
+👉 "View Interactive Dashboard" (YOUR_LOVABLE_LINK_HERE)
 
-View the interactive dashboard here:
-(https://bakehousesalesanalytics.lovable.app/)]
+---
 
-
-
-REPOSITORY STRUCTURE
+📁 REPOSITORY STRUCTURE
 
 Bakehouse-Sales-Analytics/
 │
 ├── sql/                # SQL queries used for analysis
-├── data/               # Dataset (or sample data)
 ├── images/             # Dashboard screenshots
+├── data/               # Dataset (or sample data)
 └── README.md
 
 ---
 
-🚀 How to Use This Project
+🚀 How to Use
 
-1. View the dashboard via the live link
-2. Understand insights and recommendations
+1. Explore SQL queries in the "sql/" folder
+2. View dashboard via the live link
+3. Understand insights and recommendations
 
-This project was developed as part of my data analytics learning journey, focusing on building practical skills in SQL, data analysis, and dashboard development.
+---
 
+📈 RECOMMENDATIONS
 
+- Focus on scaling high-performing franchises
+- Investigate underperforming locations to identify root causes
+- Introduce targeted promotions to boost low-activity franchises
+- Monitor transaction trends to optimize operations
 
-FINAL NOTE
+---
 
-This project demonstrates the end-to-end data analytics workflow:
+🔮 FUTURE IMPROVEMENTS
 
-- Data querying
-- Data cleaning
-- Insight generation
-- Visualization
-- Business-focused storytelling
+- Add time-based analysis (daily/monthly trends)
+- Include product-level insights
+- Enhance dashboard interactivity
+- Integrate additional business metrics
+
+---
+
+🧠 ABOUT ME
+
+This project is part of my journey in data analytics, focusing on building real-world skills in SQL, data transformation, and business insight generation.
+
+---
+
+⭐ FINAL NOTE
+
+This project demonstrates an end-to-end analytics workflow:
+Data → Analysis → Insights → Visualization → Business Impact
+
+---
